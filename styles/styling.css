@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box !important;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 !important;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #3C3C3C !important;
+}
+
+a:link, a:visited, a {
+    color: #90B7D5 !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 2px #90B7D5 !important;
+}
+
+.py-5 {
+    padding-top: 2.2rem !important;
+    padding-bottom: 2.2rem !important;
+}
+
+.head {
+    background:#E6E6E6 !important; 
+    border-radius: 25px 25px 0 0 !important;
+    border-left: 1px solid #E5E5E5 !important;
+    border-right: 1px solid #E5E5E5 !important;
+    border-top: 1px solid #E5E5E5 !important;
+}
+
+.body {
+    background:#FFF;
+    border-left: 1px solid #E5E5E5 !important;
+    border-right: 1px solid #E5E5E5 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+}
+
+.fs-4 {
+    font-size: 1.5em !important;
+}
+
+.fs-6 {
+    font-size: 1.8em !important;
+}
+
+@media (min-width: 768px) {
+    .fs-4 {
+        font-size:3em !important;
+    }
+    
+    .fs-6 {
+        font-size: 3.5em !important;
+    }
+    
+ }
